@@ -333,7 +333,10 @@ footer .copy-right {
     }
 
     .champion {
-        width: 576px;
+        width: 400px;
+    }
+    .champion-img {
+        height: 200px;
     }
 
     .final-match {
