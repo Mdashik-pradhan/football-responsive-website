@@ -52,6 +52,7 @@ nav ul li a {
 
 .banner-left {
     animation: slideInBannerLeft 1s ease-in;
+    transition: all linear .8s;
 }
 
 .banner-left h2 {
@@ -61,6 +62,7 @@ nav ul li a {
 
 .banner-right {
     animation: slideInBannerRight 1s ease-in;
+    transition: all linear .8s;
 }
 
 .banner-right img {
@@ -79,6 +81,14 @@ nav ul li a {
 header {
     background-color: purple;
     margin-bottom: 60px;
+}
+
+header:hover .banner-right {
+    margin-right: -20px;
+}
+
+header:hover .banner-left {
+    margin-left: -20px;
 }
 
 /* Header */
@@ -111,7 +121,8 @@ header {
 
 .highlights-section {
     width: var(--container-width);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: auto;
     margin-top: 165px;
     justify-content: space-between;
@@ -175,7 +186,6 @@ header {
 
 .final-match {
     display: flex;
-
     margin-top: 40px;
     align-items: center;
     justify-content: space-around;
@@ -304,6 +314,33 @@ footer .copy-right {
         grid-template-columns: 1fr;
         margin-left: auto;
     }
+    .highlights-section {
+        width: 576px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px;
+        margin: auto;
+        align-items: center;
+    }
+    .highlights-section img{
+        width: 500px;
+    }
+
+    .gallery {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        border: none;
+    }
+
+    .champion {
+        width: 576px;
+    }
+
+    .final-match {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
 }
 
 /* @media (min-width: 768px) {
