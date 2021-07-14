@@ -315,14 +315,16 @@ footer .copy-right {
         margin-left: auto;
     }
     .highlights-section {
-        width: 576px;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 60px;
         margin: auto;
         align-items: center;
     }
     .highlights-section img{
-        width: 500px;
+        width: 400px;
+        height: 100%;
+        margin: auto;
     }
 
     .gallery {
