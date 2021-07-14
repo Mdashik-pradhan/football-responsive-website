@@ -138,15 +138,18 @@ header {
     width: 567px;
     height: 427px;
 }
+
 /* Gallery */
 
-.gallery{
+.gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.gallery img{
+
+.gallery img {
     width: 100%;
-        border: 2px solid #fff;
+    height: 250px;
+    border: 2px solid #fff;
 }
 
 
@@ -161,7 +164,7 @@ header {
 
 .champion a {
     text-decoration: none;
-        color: #fff;
+    color: #fff;
 }
 
 .champion-img {
