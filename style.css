@@ -13,6 +13,17 @@ body {
     --brand-button-color: rgb(255, 51, 0);
 }
 
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #18191F;
+}
+
+p {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
 /* Navbar */
 
 
@@ -24,6 +35,12 @@ body {
     align-items: center;
     color: #fff;
 }
+.toggole:hover .navbar-items li {
+    display: block;
+}
+.navbar-items li{
+    display: none;
+}
 
 .navbar ul {
     display: flex;
@@ -32,6 +49,7 @@ body {
 
 nav ul li {
     list-style: none;
+    transition: all linear .3s;
 }
 
 nav ul li a {
