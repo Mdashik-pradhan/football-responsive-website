@@ -295,11 +295,11 @@ footer .copy-right {
     .banner-left h2 {
         font-size: 36px;
     }
-/* 
+
     .banner-right {
         margin: auto;
         margin-top: 30px;
-    } */
+    }
 
     .banner-right img {
         width: 100%;
@@ -314,12 +314,10 @@ footer .copy-right {
         margin-left: auto;
     }
 
-    /* .players-card {
+    .players-card {
         width: 100%;
-    } */
-    /* .players-card img{
-        width: 100%;
-    } */
+        height: 100%;
+    }
     .highlights-section {
         width: 100%;
         grid-template-columns: 1fr;
